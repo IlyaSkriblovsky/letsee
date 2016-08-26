@@ -2,7 +2,7 @@
 
 Letsee adapts any website for visually impaired people
 
-[English version is below](#Install)
+[English version is below](#install)
 
 ## Установка
 

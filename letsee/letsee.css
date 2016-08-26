@@ -1,0 +1,91 @@
+body.letsee-active {
+    margin-top: 40px;
+}
+
+#letsee-panel {
+    position: fixed;
+    display: none;
+    top: 0;
+    width: 100%;
+
+    margin: 0;
+
+    background: #e0e0e0;
+    border-bottom: 1px solid #808080;
+
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    text-shadow: 0 1px 1px #fff;
+}
+body.letsee-active #letsee-panel {
+    display: block;
+}
+
+#letsee-panel * {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+
+    vertical-align: middle;
+}
+
+#letsee-panel dl, #letsee-panel dt, #letsee-panel dd {
+    display: inline-block;
+}
+
+#letsee-panel dl {
+    margin: 0;
+}
+#letsee-panel dt {
+    margin: 0 0px 0 25px;
+    color: #444;
+}
+#letsee-panel dd {
+    margin: 0 5px;
+}
+
+#letsee-panel input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+}
+
+.letsee-change-fontsize {
+    padding: 0 0.25em;
+    margin: 0 2px;
+    border: 1px solid transparent;
+    text-decoration: none !important;
+}
+.letsee-fontsize-small  { font-size: 14px !important; }
+.letsee-fontsize-medium { font-size: 18px !important; }
+.letsee-fontsize-large  { font-size: 24px !important; }
+.letsee-fontsize-active {
+    border: 1px solid #777;
+    border-radius: 4px;
+    background: #ccc;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2) inset
+}
+
+.letsee-colors span {
+    padding: 0 5px;
+    margin: 0 2px;
+    font-size: 120%;
+    border-radius: 4px;
+}
+.letsee-colors-bonw span { color: #000 !important; background: #fff; }
+.letsee-colors-wonb span { color: #fff !important; background: #000; }
+.letsee-colors {
+    border: 1px solid transparent;
+    padding: 5px 0;
+    text-decoration: none !important;
+}
+.letsee-colors-active {
+    border: 1px solid #777;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2) inset
+}
+
+
+.letsee-turn-off {
+    margin-left: 60px;
+}

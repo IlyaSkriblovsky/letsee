@@ -1,9 +1,10 @@
 ;(function ($) {
 
 var style_tag = $('<style>').appendTo('body');
+var letsee_custom_css = {};
 
-if (! letsee_custom_css)
-    letsee_custom_css = {};
+if (window.letsee_custom_css)
+    letsee_custom_css = window.letsee_custom_css;
 
 function set_css(css) {
     style_tag.text(css);

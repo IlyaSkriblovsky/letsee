@@ -1,3 +1,11 @@
+# `ПРОЕКТ УСТАРЕЛ И БОЛЬШЕ НЕ ПОДДЕРЖИВАЕТСЯ`
+
+Если вы ищете как добавить на ваш сайт режим для слабовидящих, рассмотрите эти альтернативы:
+
+* https://slabovid.ru/info/access/
+* https://lidrekon.ru/slep/
+* https://wp-lessons.com/comfortable-reading-premium
+
 # letsee — Режим для слабовидящих для любого сайта
 
 Letsee adapts any website for visually impaired people
@@ -47,11 +55,6 @@ Letsee adapts any website for visually impaired people
 <a id="enable_letsee" href="javascript://" onclick="letsee_toggle_panel()">Версия для слабовидящих</a>
 ```
 
-## Автор
-Илья Скрибловский <ilyaskriblovsky@gmail.com>
-
-Пишите мне, если вам требуется добавить какой-то функционал. С удовольствием помогу установить скрипт на сайты некоммерческих и образовательных организаций.
-
 
 ## Install
 
@@ -95,8 +98,3 @@ For example, this code will hide accessibility mode link if the mode is enabeld 
 </script>
 <a id="enable_letsee" href="javascript://" onclick="letsee_toggle_panel()">Accessibility mode</a>
 ```
-
-## Author
-Ilya Skriblovsky <IlyaSkriblovsky@gmail.com>
-
-Feel free to contact me if you need additional features or customizations. I will be glad to help to install this script for nonprofit and educational organizations.

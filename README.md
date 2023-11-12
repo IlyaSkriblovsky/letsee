@@ -6,6 +6,8 @@
 * https://lidrekon.ru/slep/
 * https://wp-lessons.com/comfortable-reading-premium
 
+---
+
 # letsee — Режим для слабовидящих для любого сайта
 
 Letsee adapts any website for visually impaired people
